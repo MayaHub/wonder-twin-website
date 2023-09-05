@@ -2,6 +2,7 @@
 body {
     background-color: lightskyblue;
     margin: 20px;
+    font-family:'Architects Daughter', cursive;
 }
 
 header {
@@ -13,12 +14,14 @@ header {
 
 main {
     display: flex;
+    align-items: center;
     /* background-image: url("/images/fistbump-img.jpg"); */
 }
 
 .bio {
     margin: 0 10px 20px 10px;
     /* border: 5px solid red; */
+    padding: 0 50px;
 }
 .bio-hdr {
    display: flex;
